@@ -20,11 +20,11 @@ module.exports = {
           loader: 'html-loader'
         }
       }
-    ],
-    plugins: [
-      new HtmlWebpackPlugin({
-        template: './index.html'
-      })
     ]
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './index.html'
+    })
+  ]
 }
